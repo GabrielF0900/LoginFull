@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "outDir": "dist",
+    "noEmit": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}

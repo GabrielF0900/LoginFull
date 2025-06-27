@@ -1,0 +1,77 @@
+.formulario {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.formulario h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.formulario div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formulario label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.formulario input {
+  padding: 10px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.formulario input:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* ✅ Estilo do botão de registro */
+.formulario button {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.formulario button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Estilo do texto com link para login */
+.linkTexto {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.linkBotao {
+  color: #007BFF;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 6px;
+}
+
+.linkBotao:hover {
+  text-decoration: underline;
+}

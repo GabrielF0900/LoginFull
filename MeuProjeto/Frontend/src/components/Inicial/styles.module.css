@@ -1,0 +1,70 @@
+/* Container geral */
+.homeContainer {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho (header) */
+.homeHeader {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+/* Botão de logout estilizado e centralizado */
+.logoutButton {
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #007BFF;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logoutButton:hover {
+  background-color: #0056b3;
+}
+
+/* Conteúdo principal */
+.homeMain {
+  text-align: center;
+  color: #333;
+}
+
+.homeMain h1 {
+  margin-bottom: 12px;
+}
+
+.homeMain p {
+  margin-bottom: 24px;
+  font-weight: 600;
+  color: #555;
+}
+
+.homeMain section {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.homeMain h2 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.homeMain ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #555;
+}
