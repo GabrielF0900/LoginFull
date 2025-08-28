@@ -128,6 +128,7 @@ npm run dev
 
 ---
 
+
 ## 📫 Contato
 
 📧 **[gabrielcfonline0900@gmail.com](mailto:gabrielcfonline0900@gmail.com)**
@@ -136,4 +137,18 @@ npm run dev
 Se quiser ver o código ou dar sugestões, estou sempre aberto para trocar ideias!
 
 ---
+
+## 🖼️ Imagens do Projeto
+
+### Dashboard
+
+![Dashboard](docs/images/dashboard.jpg)
+
+### Login
+
+![Login](docs/images/login.jpg)
+
+### Register
+
+![Register](docs/images/register.jpg)
 
